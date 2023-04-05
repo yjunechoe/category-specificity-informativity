@@ -2,7 +2,7 @@ PennController.ResetPrefix()
 DebugOff()
 var showProgressBar = false;
 
-PennController.Sequence("intro", "counter", randomize("experiment"), randomize("fill"), SendResults(), "bye")
+PennController.Sequence("intro", "counter", randomize("critical"), randomize("filler-bad"), randomize("filler-good"), randomize("fill"), SendResults(), "bye")
 
 SetCounter("counter", "inc", 1);
 
@@ -18,8 +18,8 @@ newTrial( "intro" ,
     fullscreen()
 )
 
-Template("template.csv", row => 
-  newTrial("experiment",
+function expTemplate(label) {
+  return row => newTrial(label,
     newImage('screen' , 'screen.jpg' )
         .size(620, 540)
     ,
@@ -43,14 +43,62 @@ Template("template.csv", row =>
         .center()
         .print()
     ,
-    newButton("click", "Click me!")
+    newText("Speech", row.text)
+        .center()
+        .css({
+          "font-size": "28px",
+        })
+        .print()
+    ,
+    newImage("thumbsup", "thumb.jpg")
+        .print()
+    ,
+    newImage("thumbsside", "thumb.jpg")
+        .css({
+          "transform": "rotate(270deg)"
+        })
+        .print()
+    ,
+    newImage("thumbsdown", "thumb.jpg")
+        .css({
+          "transform": "rotate(180deg)"
+        })
+        .print()
+    ,
+    newCanvas("all-thumbs", 1000, 200)
+        .add( 0, 40, getImage("thumbsdown"), 0 )
+        .add( 420, 0, getImage("thumbsside"), 1 )
+        .add( 840, 0, getImage("thumbsup"), 2 )
+        .css({
+          "scale": "0.7"
+        })
         .center()
         .print()
-        .wait()
+    ,
+    newSelector("judgment")
+      .add( getImage("thumbsdown") , getImage("thumbsside"), getImage("thumbsup") )
+      .wait()
+      .log()
   )
   .log("group", row.group)
   .log("condition", row.condition)
   .log("item", row.item)
+}
+
+Template(
+  GetTable("template.csv")
+    .filter( row => row.type == "Critical" ),
+  expTemplate("critical")
+)
+Template(
+  GetTable("template.csv")
+    .filter( row => row.type == "Filler-bad" ),
+  expTemplate("filler-bad")
+)
+Template(
+  GetTable("template.csv")
+    .filter( row => row.type == "Filler-good" ),
+  expTemplate("filler-good")
 )
 
 Template(
@@ -59,13 +107,36 @@ Template(
   , row => newTrial("fill",
       newImage("stimuli", row.image)
           .cssContainer({
+              "margin-top": "4em",
               "height" : 350,
               "width" : 480
+          })
+          .css({
+            "margin-left": "auto",
+            "margin-right": "auto"
           })
           .center()
           .print()
       ,
-      newButton("click", "Click me!")
+      newText("This is one of the pictures that Bobby showed.<br>What word would you use to describe what's shown in the picture?")
+          .css({"margin": "2em"})
+          .center()
+          .print()
+      ,
+      newTextInput("response")
+        .center()
+        .lines(1)
+        .size(400, 50)
+        .print()
+        .log()
+      ,
+      newButton("Continue")
+          .cssContainer({
+            "margin-top": "2em"
+          })
+          .css({
+            "font-size": "24px",
+          })
           .center()
           .print()
           .wait()
