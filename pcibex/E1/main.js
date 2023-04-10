@@ -2,7 +2,7 @@ PennController.ResetPrefix()
 DebugOff()
 var showProgressBar = false;
 
-PennController.Sequence("intro", "counter", randomize("critical"), randomize("filler-bad"), randomize("filler-good"), randomize("fill"), SendResults(), "bye")
+PennController.Sequence("intro", "instructions", "counter", randomize("critical"), randomize("filler-bad"), randomize("filler-good"), randomize("fill"), SendResults(), "bye")
 
 SetCounter("counter", "inc", 1);
 
@@ -16,6 +16,46 @@ newTrial( "intro" ,
         .wait()
     ,
     fullscreen()
+)
+
+newTrial("instructions",
+  newImage("kid", "kid.jpg")
+    .size(200, 400)
+    .cssContainer({
+      "margin-top": "4em"
+    })
+    .center()
+    .print()
+  ,
+  newText("Inst", "This is Timmy.<br>Timmy is starting his first day of middle school next week.<br>Over summer break, Timmy took pictures of many things around him for his show-and-tell project, which he will have to present on the first day of his History class.<br>Timmy would like to practice before he presents in front of the class and would like your help!")
+    .cssContainer({
+      "width": "1000px",
+      "transform": "translateX(-150px)",
+      "margin-top": "1em",
+      "margin-bottom": "1em"
+    })
+    .css({
+      "font-size": "28px",
+      "font-style": "italic",
+    })
+    .print()
+  ,
+  newButton("Continue")
+    .cssContainer({
+      "margin-top": "2em"
+    })
+    .css({
+      "font-size": "24px",
+    })
+    .center()
+    .print()
+    .wait()
+  ,
+  getText("Inst")
+    .text(`Timmy will be presenting a slideshow of images, and for each image he needs to give a short description of what is in the picture and the context for the picture.<br>Please give Timmy feedback on how well he described what is in each picture using the set of reactions.<br>Use "thumbs up" for "good", "thumbs down" for "bad" and "thumbs sideways" for somewhere in between.`)
+  ,
+  getButton("Continue")
+    .wait()
 )
 
 function expTemplate(label) {
@@ -47,6 +87,7 @@ function expTemplate(label) {
         .center()
         .css({
           "font-size": "28px",
+          "width" : "1000px"
         })
         .print()
     ,
@@ -155,7 +196,7 @@ Template(
       newText( "debrief" , `<div>
           <h1>Debriefing</h1>
           <p>In this experiment, we were looking at the kinds of words people use to describe everyday objects. If you see a dog, you can either be very specific and call it a dalmatian, or be very broad and call it a dog.</p>
-          <p>We had Bobby use words that vary in this kind of specificity to describe objects in his pictures. You may have found it odd (but not wrong) when bobby called something an animal or furniture when he could have been more specific - this is the intuitition that this study tried to probe.</p>
+          <p>We had Bobby use words that vary in this kind of specificity to describe objects in his pictures. You may have found it odd (but not wrong) when Bobby called something an animal or furniture when he could have been more specific - this is the intuitition that this study tried to probe.</p>
       </div>`)
           .css({
             "width": "800px",

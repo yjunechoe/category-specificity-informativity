@@ -1,47 +1,47 @@
 group,type,condition,item,text,image
-1,Critical,super,dog,This is an animal that belongs to my grandma. I took this picture when we all gathered at grandma's house for a family reunion.,dog.jpg
-2,Critical,basic,dog,This is a dog that belongs to my grandma. I took this picture when we all gathered at grandma's house for a family reunion.,dog.jpg
-2,Critical,super,guitar,This is an instrument that my brother owns. He let me in his room to take pictures for my project and that's when I took this picture.,guitar.jpg
-1,Critical,basic,guitar,This is a guitar that my brother owns. He let me in his room to take pictures for my project and that's when I took this picture.,guitar.jpg
-1,Critical,super,pepper,This is a vegetable that my mom used to cook dinner last week. She was washing dishes in the kitchen when I took this picture.,pepper.jpg
-2,Critical,basic,pepper,This is a pepper that my mom used to cook dinner last week. She was washing dishes in the kitchen when I took this picture.,pepper.jpg
-2,Critical,super,car,This is a vehicle that my dad had since he was young. I took a couple pictures and this is the best one that my dad helped me pick.,car.jpg
-1,Critical,basic,car,This is a car that my dad had since he was young. I took a couple pictures and this is the best one that my dad helped me pick.,car.jpg
-1,Critical,super,apple,This is a fruit that my sister picked and brought back from her school field trip. I took this picture when she was cleaning out her bag.,apple.jpg
-2,Critical,basic,apple,This is an apple that my sister picked and brought back from her school field trip. I took this picture when she was cleaning out her bag.,apple.jpg
-2,Critical,super,watergun,This is a toy that my cousin just got for his birthday. I got his permission to take this picture when I was over at his house.,watergun.jpg
-1,Critical,basic,watergun,This is a water gun that my cousin just got for his birthday. I got his permission to take this picture when I was over at his house.,watergun.jpg
-1,Critical,super,coat,This is a garment that my brother likes but it doesn't fit him anymore. I took this picture as he was packing up his old things for donation.,coat.jpg
-2,Critical,basic,coat,This is a coat that my brother likes but it doesn't fit him anymore. I took this picture as he was packing up his old things for donation.,coat.jpg
-2,Critical,super,couch,This is a furniture that my parents recently bought. I helped build it and took this picture after we were all done.,couch.jpg
-1,Critical,basic,couch,This is a couch that my parents recently bought. I helped build it and took this picture after we were all done.,couch.jpg
-1,Filler-bad,fiiler,computer,This is an old computer. I found it and took a picture of it while I was exploring my grandfather's basement.,computer.jpg
-1,Filler-bad,fiiler,paperclip,These are fancy paperclips that my sister owns. She keep leaving it in random places around the house so I took a picture for evidence.,paperclip.jpg
-1,Filler-bad,fiiler,bugspray,This is a bug spray but it actually doesn't work. It just smells good and doesn't kill anything so I took a picture of it to request a refund.,bugspray.jpg
-1,Filler-bad,fiiler,violin,This is a violin that I saw someone playing on the street. I've never seen a violin this big so I took a picture to document it.,violin.jpg
-1,Filler-bad,fiiler,handsanitizer,This is my dad's big hand sanitizer bottle. I've only seen him open it once and it smelled so strong that I immediately ran outside the room.,handsanitizer.jpg
-1,Filler-bad,fiiler,yellowrose,This is a yellow rose that I found on a sidewalk. I was so lucky to be able to take a picture of it just as it was blooming.,yellowrose.jpg
-1,Filler-bad,fiiler,stapler,This is a big stapler that I found in my aunt's closet. I saved a picture of it because my aunt said she will be cleaning out her closet soon.,stapler.jpg
-1,Filler-bad,fiiler,tiger,This is a tiger that I saw at the city zoo. It was napping for a long time and I waited for him to wake up to take this picture.,tiger.jpg
+1,Critical,super,dog,This is an animal. It belongs to my grandma.,dog.jpg
+2,Critical,basic,dog,This is a dog. It belongs to my grandma.,dog.jpg
+2,Critical,super,guitar,This is an instrument. My brother got it for his birthday.,guitar.jpg
+1,Critical,basic,guitar,This is a guitar. My brother got it for his birthday.,guitar.jpg
+1,Critical,super,pepper,This is a vegetable. My mom picked it from the garden.,pepper.jpg
+2,Critical,basic,pepper,This is a pepper. My mom picked it from the garden.,pepper.jpg
+2,Critical,super,car,This is a vehicle. My dad had it since he was young.,car.jpg
+1,Critical,basic,car,This is a car. My dad had it since he was young.,car.jpg
+1,Critical,super,apple,This is a fruit. My sister packed it for her school trip yesterday.,apple.jpg
+2,Critical,basic,apple,This is an apple. My sister packed it for her school trip yesterday.,apple.jpg
+2,Critical,super,pasta,This is a plate of food. My mom made this last night.,pastajpg
+1,Critical,basic,pasta,This is a plate of pasta. My mom made this last night.,pastajpg
+1,Critical,super,butterfly,This is an insect. It flew away after I took this picture.,butterfly.jpg
+2,Critical,basic,butterfly,This is a butterfly. It flew away after I took this picture.,butterfly.jpg
+2,Critical,super,hammer,This is a tool. My dad used it to fix the roof last week.,hammer.jpg
+1,Critical,basic,hammer,This is a hammer. My dad used it to fix the roof last week.,hammer.jpg
+1,Filler-bad,fiiler,computer,This is a computer. It was in my grandfather's basement.,computer.jpg
+1,Filler-bad,fiiler,videogame,This is a video game. My uncle has it in his living room.,videogame.jpg
+1,Filler-bad,fiiler,candystick,This is a candy stick. My mom keeps it in her purse.,candystick.jpg
+1,Filler-bad,fiiler,violin,This is a violin. Someone was playing it on the streets.,violin.jpg
+1,Filler-bad,fiiler,handsanitizer,This is a hand sanitizer bottle. It's heavy and made of glass.,handsanitizer.jpg
+1,Filler-bad,fiiler,yellowrose,This is a yellow rose. I found it on a sidewalk.,yellowrose.jpg
+1,Filler-bad,fiiler,stapler,This is a stapler. My aunt keeps it in her closet.,stapler.jpg
+1,Filler-bad,fiiler,swing,This is a swing. It was at my neighbor's garage sale.,rockingchair.jpg
 1,Filler-good,fiiler,statue,This is the Statue of Liberty. I took this picture while I was on a boat tour in New York with my family.,statue.jpg
 1,Filler-good,fiiler,soccerfield,This is the soccer field that my little league team plays on. I took this picture on a Sunday which is when we don't have practice.,soccerfield.jpg
-1,Filler-good,fiiler,badge,This is the most recent boyscout badge that I got. It's from a 2-day survival camp and I took this picture when my leader gave it to me.,badge.jpg
+1,Filler-good,fiiler,badge,This is the most recent cout badge that I got. It's from a 2-day survival camp and I took this picture when my leader gave it to me.,badge.jpg
 1,Filler-good,fiiler,mug,This is a mug that I made at a clay workshop. My hands were still sticky afterwards so my friend helped me take this picture.,mug.jpg
 1,Filler-good,fiiler,painting,This is a painting that my mom recently bought. I took a picture of it hanging in our living room but it used to be on the kitchen wall.,painting.jpg
 1,Filler-good,fiiler,pizza,This is my favorite pizza at the restaurant next to my house. I was so hungry when I got it that I almost forgot to take this picture.,pizza.jpg
 1,Filler-good,fiiler,kite,This is a kite festival that I went to on the first week of summer break. It was really fun but it started to rain right after I took this picture.,kite.jpg
 1,Filler-good,fiiler,eggtart,This is an egg tart that I made with my mom. We made a lot more too but I took a picture of this one which looked the best.,eggtart.jpg
-2,Filler-bad,fiiler,computer,This is an old computer. I found it and took a picture of it while I was exploring my grandfather's basement.,computer.jpg
-2,Filler-bad,fiiler,paperclip,These are fancy paperclips that my sister owns. She keep leaving it in random places around the house so I took a picture for evidence.,paperclip.jpg
-2,Filler-bad,fiiler,bugspray,This is a bug spray but it actually doesn't work. It just smells good and doesn't kill anything so I took a picture of it to request a refund.,bugspray.jpg
-2,Filler-bad,fiiler,violin,This is a violin that I saw someone playing on the street. I've never seen a violin this big so I took a picture to document it.,violin.jpg
-2,Filler-bad,fiiler,handsanitizer,This is my dad's big hand sanitizer bottle. I've only seen him open it once and it smelled so strong that I immediately ran outside the room.,handsanitizer.jpg
-2,Filler-bad,fiiler,yellowrose,This is a yellow rose that I found on a sidewalk. I was so lucky to be able to take a picture of it just as it was blooming.,yellowrose.jpg
-2,Filler-bad,fiiler,stapler,This is a big stapler that I found in my aunt's closet. I saved a picture of it because my aunt said she will be cleaning out her closet soon.,stapler.jpg
-2,Filler-bad,fiiler,tiger,This is a tiger that I saw at the city zoo. It was napping for a long time and I waited for him to wake up to take this picture.,tiger.jpg
+2,Filler-bad,fiiler,computer,This is a computer. It was in my grandfather's basement.,computer.jpg
+2,Filler-bad,fiiler,videogame,This is a video game. My uncle has it in his living room.,videogame.jpg
+2,Filler-bad,fiiler,candystick,This is a candy stick. My mom keeps it in her purse.,candystick.jpg
+2,Filler-bad,fiiler,violin,This is a violin. Someone was playing it on the streets.,violin.jpg
+2,Filler-bad,fiiler,handsanitizer,This is a hand sanitizer bottle. It's heavy and made of glass.,handsanitizer.jpg
+2,Filler-bad,fiiler,yellowrose,This is a yellow rose. I found it on a sidewalk.,yellowrose.jpg
+2,Filler-bad,fiiler,stapler,This is a stapler. My aunt keeps it in her closet.,stapler.jpg
+2,Filler-bad,fiiler,swing,This is a swing. It was at my neighbor's garage sale.,rockingchair.jpg
 2,Filler-good,fiiler,statue,This is the Statue of Liberty. I took this picture while I was on a boat tour in New York with my family.,statue.jpg
 2,Filler-good,fiiler,soccerfield,This is the soccer field that my little league team plays on. I took this picture on a Sunday which is when we don't have practice.,soccerfield.jpg
-2,Filler-good,fiiler,badge,This is the most recent boyscout badge that I got. It's from a 2-day survival camp and I took this picture when my leader gave it to me.,badge.jpg
+2,Filler-good,fiiler,badge,This is the most recent scout badge that I got. It's from a 2-day survival camp and I took this picture when my leader gave it to me.,badge.jpg
 2,Filler-good,fiiler,mug,This is a mug that I made at a clay workshop. My hands were still sticky afterwards so my friend helped me take this picture.,mug.jpg
 2,Filler-good,fiiler,painting,This is a painting that my mom recently bought. I took a picture of it hanging in our living room but it used to be on the kitchen wall.,painting.jpg
 2,Filler-good,fiiler,pizza,This is my favorite pizza at the restaurant next to my house. I was so hungry when I got it that I almost forgot to take this picture.,pizza.jpg
