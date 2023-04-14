@@ -19,15 +19,17 @@ newTrial( "intro" ,
 )
 
 newTrial("instructions",
-  newImage("kid", "kid.jpg")
-    .size(200, 400)
+  newImage("kid", "kid.png")
+    .css({
+	"width": "300px"
+    })
     .cssContainer({
-      "margin-top": "4em"
+      "margin-top": "20vh"
     })
     .center()
     .print()
   ,
-  newText("Inst", "This is Timmy.<br>Timmy is starting his first day of middle school next week.<br>Over summer break, Timmy took pictures of many things around him for his show-and-tell project, which he will have to present on the first day of his History class.<br>Timmy would like to practice before he presents in front of the class and would like your help!")
+  newText("Inst", "This is Suzy. Suzy is a student in elementary school.<br>Over the past summer break, Suzy took pictures of many things around her for a class show-and-tell project, which she will have to present next week.<br>Suzy wants to practice before presenting and would like your help!")
     .cssContainer({
       "width": "1000px",
       "transform": "translateX(-150px)",
@@ -50,12 +52,45 @@ newTrial("instructions",
     .center()
     .print()
     .wait()
+    .remove()
   ,
   getText("Inst")
-    .text(`Timmy will be presenting a slideshow of images, and for each image he needs to give a short description of what is in the picture and the context for the picture.<br>Please give Timmy feedback on how well he described what is in each picture using the set of reactions.<br>Use "thumbs up" for "good", "thumbs down" for "bad" and "thumbs sideways" for somewhere in between.`)
+    .text(`Hi I'm Suzy! Can you help me practice my show and tell project for next week?`)
+    .css({
+      "font-size": "28px",
+      "font-style": "plain",
+    })
   ,
-  getButton("Continue")
+  newButton("Yes")
+    .cssContainer({
+      "margin-top": "2em"
+    })
+    .css({
+      "font-size": "24px",
+    })
+    .center()
+    .print()
     .wait()
+    .remove()
+  ,
+  getText("Inst")
+    .text(`Suzy will be presenting a slideshow of pictures<br>Please give Suzy feedback on how well she described what is in each picture using a set of reactions.<br>Click "thumbs up" for "good", "thumbs down" for "bad" and "thumbs sideways" for somewhere in between.`)
+    .css({
+      "font-size": "28px",
+      "font-style": "italic",
+    })
+  ,
+  newButton("Begin")
+    .cssContainer({
+      "margin-top": "2em"
+    })
+    .css({
+      "font-size": "24px",
+    })
+    .center()
+    .print()
+    .wait()
+    .remove()
 )
 
 function expTemplate(label) {
@@ -63,8 +98,10 @@ function expTemplate(label) {
     newImage('screen' , 'screen.jpg' )
         .size(620, 540)
     ,
-    newImage('kid' , 'kid.jpg' )
-        .size(200, 400)
+    newImage('kid' , 'kid.png' )
+	  .css({
+	    "width": "200px"
+    	  })
     ,
     newImage("stimuli", row.image)
         .cssContainer({
@@ -79,7 +116,7 @@ function expTemplate(label) {
     newCanvas( 'myCanvas', 950, 600)
         .add( 300, 30, getImage('screen'), 0 )
         .add( 370, 110, getImage('stimuli'), 1)
-        .add( 30, 165, getImage('kid'), 2 )
+        .add( 0, 270, getImage('kid'), 2 )
         .center()
         .print()
     ,
@@ -159,7 +196,7 @@ Template(
           .center()
           .print()
       ,
-      newText("This is one of the pictures that Bobby showed.<br>What word would you use to describe what's shown in the picture?")
+      newText("This is one of the pictures that Suzy showed.<br>What should Suzy say to describe what's in the picture?")
           .css({"margin": "2em"})
           .center()
           .print()
@@ -196,7 +233,7 @@ Template(
       newText( "debrief" , `<div>
           <h1>Debriefing</h1>
           <p>In this experiment, we were looking at the kinds of words people use to describe everyday objects. If you see a dog, you can either be very specific and call it a dalmatian, or be very broad and call it a dog.</p>
-          <p>We had Bobby use words that vary in this kind of specificity to describe objects in his pictures. You may have found it odd (but not wrong) when Bobby called something an animal or furniture when he could have been more specific - this is the intuitition that this study tried to probe.</p>
+          <p>We had Suzy use words that vary in this kind of specificity to describe objects in his pictures. You may have found it odd (but not wrong) when Suzy called something an animal or furniture when he could have been more specific - this is the intuitition that this study tried to probe.</p>
       </div>`)
           .css({
             "width": "800px",

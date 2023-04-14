@@ -9,8 +9,8 @@ group,type,condition,item,text,image
 1,Critical,basic,car,This is a car. My dad had it since he was young.,car.jpg
 1,Critical,super,apple,This is a fruit. My sister packed it for her school trip yesterday.,apple.jpg
 2,Critical,basic,apple,This is an apple. My sister packed it for her school trip yesterday.,apple.jpg
-2,Critical,super,pasta,This is a plate of food. My mom made this last night.,pastajpg
-1,Critical,basic,pasta,This is a plate of pasta. My mom made this last night.,pastajpg
+2,Critical,super,pasta,This is a plate of food. My mom made this last night.,pasta.jpg
+1,Critical,basic,pasta,This is a plate of pasta. My mom made this last night.,pasta.jpg
 1,Critical,super,butterfly,This is an insect. It flew away after I took this picture.,butterfly.jpg
 2,Critical,basic,butterfly,This is a butterfly. It flew away after I took this picture.,butterfly.jpg
 2,Critical,super,hammer,This is a tool. My dad used it to fix the roof last week.,hammer.jpg
