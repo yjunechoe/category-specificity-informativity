@@ -23,14 +23,14 @@ group,type,condition,item,text,image
 1,Filler-bad,fiiler,yellowrose,This is a yellow rose. I found it on a sidewalk.,yellowrose.jpg
 1,Filler-bad,fiiler,stapler,This is a stapler. My aunt keeps it in her closet.,stapler.jpg
 1,Filler-bad,fiiler,swing,This is a swing. It was at my neighbor's garage sale.,rockingchair.jpg
-1,Filler-good,fiiler,statue,This is the Statue of Liberty. I took this picture while I was on a boat tour in New York with my family.,statue.jpg
-1,Filler-good,fiiler,soccerfield,This is the soccer field that my little league team plays on. I took this picture on a Sunday which is when we don't have practice.,soccerfield.jpg
-1,Filler-good,fiiler,badge,This is the most recent cout badge that I got. It's from a 2-day survival camp and I took this picture when my leader gave it to me.,badge.jpg
-1,Filler-good,fiiler,mug,This is a mug that I made at a clay workshop. My hands were still sticky afterwards so my friend helped me take this picture.,mug.jpg
-1,Filler-good,fiiler,painting,This is a painting that my mom recently bought. I took a picture of it hanging in our living room but it used to be on the kitchen wall.,painting.jpg
-1,Filler-good,fiiler,pizza,This is my favorite pizza at the restaurant next to my house. I was so hungry when I got it that I almost forgot to take this picture.,pizza.jpg
-1,Filler-good,fiiler,kite,This is a kite festival that I went to on the first week of summer break. It was really fun but it started to rain right after I took this picture.,kite.jpg
-1,Filler-good,fiiler,eggtart,This is an egg tart that I made with my mom. We made a lot more too but I took a picture of this one which looked the best.,eggtart.jpg
+1,Filler-good,fiiler,statue,This is the Statue of Liberty that I saw while visiting New York with my family.,statue.jpg
+1,Filler-good,fiiler,soccerfield,This is the soccer field that my little league team plays on.,soccerfield.jpg
+1,Filler-good,fiiler,badge,This is the most recent scout badge that I got.,badge.jpg
+1,Filler-good,fiiler,mug,This is a mug that I made at a clay workshop.,mug.jpg
+1,Filler-good,fiiler,painting,This is a painting that my mom recently bought.,painting.jpg
+1,Filler-good,fiiler,pizza,This is my favorite pizza at the restaurant next to my house.,pizza.jpg
+1,Filler-good,fiiler,kite,This is a kite festival that I went to on the first week of summer break.,kite.jpg
+1,Filler-good,fiiler,eggtart,This is an egg tart that I made with my mom.,eggtart.jpg
 2,Filler-bad,fiiler,computer,This is a computer. It was in my grandfather's basement.,computer.jpg
 2,Filler-bad,fiiler,videogame,This is a video game. My uncle has it in his living room.,videogame.jpg
 2,Filler-bad,fiiler,candystick,This is a candy stick. My mom keeps it in her purse.,candystick.jpg
@@ -39,11 +39,11 @@ group,type,condition,item,text,image
 2,Filler-bad,fiiler,yellowrose,This is a yellow rose. I found it on a sidewalk.,yellowrose.jpg
 2,Filler-bad,fiiler,stapler,This is a stapler. My aunt keeps it in her closet.,stapler.jpg
 2,Filler-bad,fiiler,swing,This is a swing. It was at my neighbor's garage sale.,rockingchair.jpg
-2,Filler-good,fiiler,statue,This is the Statue of Liberty. I took this picture while I was on a boat tour in New York with my family.,statue.jpg
-2,Filler-good,fiiler,soccerfield,This is the soccer field that my little league team plays on. I took this picture on a Sunday which is when we don't have practice.,soccerfield.jpg
-2,Filler-good,fiiler,badge,This is the most recent scout badge that I got. It's from a 2-day survival camp and I took this picture when my leader gave it to me.,badge.jpg
-2,Filler-good,fiiler,mug,This is a mug that I made at a clay workshop. My hands were still sticky afterwards so my friend helped me take this picture.,mug.jpg
-2,Filler-good,fiiler,painting,This is a painting that my mom recently bought. I took a picture of it hanging in our living room but it used to be on the kitchen wall.,painting.jpg
-2,Filler-good,fiiler,pizza,This is my favorite pizza at the restaurant next to my house. I was so hungry when I got it that I almost forgot to take this picture.,pizza.jpg
-2,Filler-good,fiiler,kite,This is a kite festival that I went to on the first week of summer break. It was really fun but it started to rain right after I took this picture.,kite.jpg
-2,Filler-good,fiiler,eggtart,This is an egg tart that I made with my mom. We made a lot more too but I took a picture of this one which looked the best.,eggtart.jpg
+2,Filler-good,fiiler,statue,This is the Statue of Liberty that I saw while visiting New York with my family.,statue.jpg
+2,Filler-good,fiiler,soccerfield,This is the soccer field that my little league team plays on.,soccerfield.jpg
+2,Filler-good,fiiler,badge,This is the most recent scout badge that I got.,badge.jpg
+2,Filler-good,fiiler,mug,This is a mug that I made at a clay workshop.,mug.jpg
+2,Filler-good,fiiler,painting,This is a painting that my mom recently bought.,painting.jpg
+2,Filler-good,fiiler,pizza,This is my favorite pizza at the restaurant next to my house.,pizza.jpg
+2,Filler-good,fiiler,kite,This is a kite festival that I went to on the first week of summer break.,kite.jpg
+2,Filler-good,fiiler,eggtart,This is an egg tart that I made with my mom.,eggtart.jpg
